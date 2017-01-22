@@ -22,6 +22,9 @@ Before installation:
 - _Read_ the script to see what it does.
 - Back up any crucial files in your EWS home directory to an external location.
 
+Installation:
+- Put the script in your home directory (`cd ~`) and then run it (`sh ./install_rootless_haskell.sh`)
+
 After installation:
 - Every terminal session, it's necessary to type `source ~/rootless_haskell.rc` to get started.
 - The first time a `stack test` is run in a project directory, a bunch of packages will download and build... it won't take so long after that.
@@ -41,4 +44,5 @@ Be careful!
 
 ***
 
-Script by Eric Huber based on a script by Yury Antonov. https://github.com/yantonov/install-ghc/blob/master/ubuntu/install-ghc-ubuntu.md
+Script by Eric Huber based on a script by Yury Antonov:
+https://github.com/yantonov/install-ghc/blob/master/ubuntu/install-ghc-ubuntu.md
