@@ -44,5 +44,6 @@ Be careful!
 
 ***
 
-Script by Eric Huber based on a script by Yury Antonov:
-https://github.com/yantonov/install-ghc/blob/master/ubuntu/install-ghc-ubuntu.md
+Script by Eric Huber based on a script by [Yury Antonov][1].
+
+[1]: https://github.com/yantonov/install-ghc/blob/master/ubuntu/install-ghc-ubuntu.md
