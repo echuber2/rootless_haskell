@@ -2,6 +2,7 @@
 
 # Rootless Haskell installer for UIUC EWS users
 # Updated 20160122 - Eric Huber
+# https://github.com/echuber2/rootless_haskell
 # Stack downloader originally based on script by Yury Antonov:
 # https://github.com/yantonov/install-ghc/blob/master/ubuntu/install-ghc-ubuntu.md
 
