@@ -18,6 +18,8 @@ This script downloads and builds the GMP library from source, but jury-rigs the 
 Then it downloads and installs Stack binaries, and Stack installs GHC binaries. Several tweaks have been made to make sure these installers use the correct library files.
 
 ## Checklist
+(If you aren't using an EWS account at UIUC this script is probably useless to you.)
+
 Before installation:
 - _Read_ the script to see what it does.
 - Back up any crucial files in your EWS home directory to an external location.
@@ -28,8 +30,6 @@ Installation:
 After installation:
 - Every terminal session, it's necessary to type `source ~/rootless_haskell.rc` to get started.
 - The first time a `stack test` is run in a project directory, a bunch of packages will download and build... it won't take so long after that.
-
-If you aren't using an EWS terminal this script is probably useless to you.
 
 ## Troubleshooting
 If you are trying to do this over SSH, and you probably shouldn't, then you may get disconnected during the install which will ruin everything. One thing you _could_ do is press ctrl-Z after the install begins, which pauses the process, and then type `bg && disown`. That will let the installer keep running (invisibly) apart from your terminal session. If it goes crazy for some reason, you'd have to hunt down and kill it with ``ps aux | grep `whoami` | grep install`` and then `kill` the PID.
