@@ -33,7 +33,8 @@ After installation:
 
 ## Troubleshooting
 Unfortunately I can't guarantee this technique will work. It seems to work sometimes, but the installer may still be terminated by the server if the terminal session disconnects.
-~~If you are trying to do this over SSH, and you probably shouldn't, then you may get disconnected during the install which will ruin everything. One thing you _could_ do is press ctrl-Z after the install begins, which pauses the process, and then type `bg && disown`. That will let the installer keep running (invisibly) apart from your terminal session. If it goes crazy for some reason, you'd have to hunt down and kill it with ``ps aux | grep `whoami` | grep install`` and then `kill` the PID.~~
+
+> ~~If you are trying to do this over SSH, and you probably shouldn't, then you may get disconnected during the install which will ruin everything. One thing you _could_ do is press ctrl-Z after the install begins, which pauses the process, and then type `bg && disown`. That will let the installer keep running (invisibly) apart from your terminal session. If it goes crazy for some reason, you'd have to hunt down and kill it with ``ps aux | grep `whoami` | grep install`` and then `kill` the PID.~~
 
 ## Uninstallation
 You can remove this version of Haskell from your home directory like this:
